@@ -12,9 +12,20 @@
     "vue": "^3.4.31"
   },
   "devDependencies": {
+    "@eslint/js": "^9.7.0",
     "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.8.0",
+    "prettier": "^3.3.3",
     "typescript": "^5.2.2",
+    "typescript-eslint": "^7.16.1",
     "vite": "^5.3.4",
     "vue-tsc": "^2.0.24"
+  },
+  "overrides": {
+    "eslint": "^9.7.0"
   }
 }
